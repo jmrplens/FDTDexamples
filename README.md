@@ -1,4 +1,4 @@
-# Modelos sencillos FDTD para simulaciones acústicas en MATLAB
+## Modelos sencillos FDTD para simulaciones acústicas en MATLAB
 
 Todos los ejemplos solo se han probado en MATLAB 2019a, por lo que en versiones anteriores puede que algunas líneas fallen.
 
