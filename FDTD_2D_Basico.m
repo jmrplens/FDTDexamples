@@ -43,17 +43,16 @@ py = zeros(nx,ny);
 ux = zeros(nx+1,ny); % Matriz de velocidad de particula en x
 uy = zeros(nx,ny+1); % Matriz de velocidad de particula en y
 
-%% POSICIONES DE LA FUENTE
-% 
+%% POSICION DE LA FUENTE
 posNy = round((Origen(2))/dh) + nPML;
 posNx = round(Origen(1)/dh) + nPML;
 
 
 %% EXCITACIÓN
 lenT = ts*10^-3/dt; % Longitud del vector de tiempo
-a = 2000/(sqrt(pi)/2)*4;
-t=((1:lenT)/(1/dt)-4/a); % Vector de tiempos
-w=-(exp(-a^2*(t.^2)/2).*(a^2*(t.^2)-1)); % Ricker
+a    = 2000/(sqrt(pi)/2)*4;
+t    = ((1:lenT)/(1/dt)-4/a); % Vector de tiempos
+w    = -(exp(-a^2*(t.^2)/2).*(a^2*(t.^2)-1)); % Ricker
 
 %% PML
 % Gradiente de impedancias desde el valor del medio hasta un porcentaje de
