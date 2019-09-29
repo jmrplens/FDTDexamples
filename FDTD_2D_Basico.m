@@ -22,7 +22,7 @@ ly = 3;         % Alto [m]
 Origen = [1,2.5]; % Origen de la fuente
 % Posicion de los receptores
 rec1 = [4,0.25]; % Posicion del receptor 1 [m,m]
-rec2 = [1,0.25];% Posicion del receptor 2 [m,m]
+rec2 = [0.9,0.25];% Posicion del receptor 2 [m,m]
 rec3 = [2,2]; % Posicion del receptor 3 [m,m]
 % Tamaño/Ancho de la PML en metros
 lPML = 0.25;    % m
@@ -46,7 +46,6 @@ uy = zeros(nx,ny+1); % Matriz de velocidad de particula en y
 %% POSICION DE LA FUENTE
 posNy = round((Origen(2))/dh) + nPML;
 posNx = round(Origen(1)/dh) + nPML;
-
 
 %% EXCITACIÓN
 lenT = ts*10^-3/dt; % Longitud del vector de tiempo
@@ -139,7 +138,7 @@ maxx = max([abs(h),abs(h2),abs(h3)]);
 h = h./maxx; h2 = h2./maxx; h3 = h3./maxx;
 T = array2timetable([h',h2',h3'],...% Datos iniciales
 'RowTimes',time); % Columna de tiempo
-fig= figure;
+fig= figure('Color',[1,1,1]);
 s = stackedplot(T,...
     'Title','Señal recibida',...
     'DisplayLabels',{'Receptor 1', 'Receptor 2', 'Receptor 3'},...
