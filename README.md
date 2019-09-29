@@ -21,4 +21,12 @@ Ejemplo con `N = 7` y `fd = 1000`:
 
 #### FDTD_Columna
 
-En desarrollo...
+Este modelo simula una columna de altavoces direccionable. Se puede asignar el número de elementos, la distancia entre ellos, el ángulo de inclinación del haz y dos excitaciones: pulso Ricker y onda sinusoidal.
+
+Pulso:
+
+<img src="http://jmrplens.com/GitHub_FDTD/columnapulse.gif" width="50%"></img> <img src="http://jmrplens.com/GitHub_FDTD/colresppulse.jpg" width="43%"></img>
+
+Seno:
+
+<img src="http://jmrplens.com/GitHub_FDTD/columnacw.gif" width="50%"></img> <img src="http://jmrplens.com/GitHub_FDTD/colrespcw.jpg" width="43%"></img>
