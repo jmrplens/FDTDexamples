@@ -8,6 +8,8 @@ Iré subiendo más modelos poco a poco.
 
 Este modelo simula un recinto en dos dimensiones, la excitación es un pulso Ricker e incluye unas líneas simples para emular un objeto rígido en el recinto.
 
+<img src="http://jmrplens.com/GitHub_FDTD/basico.gif" width="50%"></img> <img src="http://jmrplens.com/GitHub_FDTD/basicorecepcion.jpg" width="43%"></img>
+
 #### FDTD_QRD_Unidimensional_2D
 
 Este modelo simula un recinto de dos dimensiones con un difusor QRD. El difusor se configura en el script según los parámetros de diseño (frecuencia de diseño, número primo generador, etc).
