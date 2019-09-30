@@ -60,7 +60,7 @@ switch excit
     case 'pulse'
         w = -(exp(-a^2*(t.^2)/2).*(a^2*(t.^2)-1)); % Ricker
     case 'CW'
-        w = cos(2*pi*freq*t);
+        w = cos(2*pi*freq*t)+1i*sin(2*pi*freq*t);
 end
 
 %% PML
