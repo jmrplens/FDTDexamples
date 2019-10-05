@@ -17,7 +17,7 @@ k = (c^2)*rho;  % Modulo de compresibilidad
 % Frecuencia de emision
 freq = 2000;    % [Hz]
 % Tipo de excitación ('pulse' o 'CW')
-excit = 'pulse';
+excit = 'CW';
 % Dimensiones del mapa en metros
 lx = 5;         % m
 ly = 3;         % m
