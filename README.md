@@ -23,7 +23,7 @@ Ejemplo con `N = 7` y `fd = 1000`:
 
 Este modelo simula una columna de altavoces direccionable. Se puede asignar el número de elementos, la distancia entre ellos, el ángulo de inclinación del haz y dos excitaciones: pulso Ricker y onda sinusoidal.
 
- _Modelo FEM realizado con COMSOL (con el mismo nivel de personalización que en el script de MATLAB): <a href="http://jmrplens.com/GitHub_FDTD/ColumnaCOMSOL.zip" target="_blank">DESCARGAR</a>_
+  <a href="http://jmrplens.com/GitHub_FDTD/ColumnaCOMSOL.zip" target="_blank">_Descargar modelo FEM realizado con COMSOL (con el mismo nivel de personalización que en el script de MATLAB)_</a>
 
 Ejemplos con 32 elementos, 30 grados de inclinación y señal a 2 kHz:
 
