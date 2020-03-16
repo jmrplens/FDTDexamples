@@ -41,6 +41,6 @@ Modelo similar al anterior pero en este caso se focaliza el campo acústico en u
 
 <img src="http://jmrplens.com/GitHub_FDTD/columnacwcoor.gif" width="50%"></img> <img src="http://jmrplens.com/GitHub_FDTD/colrespcoor.jpg" width="43%"></img>
 
-Esta focalización se consigue añadiendo un retardo que simula una curvatura de la columa que se agrega al retardo para inclinarla virtualmente:
+Esta focalización se consigue añadiendo un retardo que simula una curvatura de la columa que se agrega al retardo creado inicialmente para inclinarla virtualmente:
 
 <img src="http://jmrplens.com/GitHub_FDTD/colarccoor.jpg" width="43%"></img>
