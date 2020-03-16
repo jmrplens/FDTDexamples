@@ -28,7 +28,7 @@ N = 32;         % Numero de elementos de la columna
 d = 0.04;       % Distancia entre elementos (de centro a centro) (m)
 Origen = [1,2.5]; % Posicion de origen de la columna (m,m)
 % Punto de escucha
-Foco = [4,0.5];
+Foco = [4,0.25];
 % Posicion de los receptores
 rec1 = [4,0.25]; % Posicion del receptor 1 (m,m)
 rec2 = [1,0.25];% Posicion del receptor 2 (m,m)
@@ -59,7 +59,7 @@ posNx = round(Origen(1)/dh) + nPML;
 
 %% CÁLCULO DE LOS RETARDOS TEMPORALES (dly)
 % Calculo del angulo para emitir hacia el punto de escucha
-theta = -rad2deg(atan((Origen(2)-d*N/2-Foco(2)+lPML)/(Foco(1)-Origen(1))));
+theta = -rad2deg(atan((Origen(2)-d*(N-1)/2-Foco(2))/(Foco(1)-Origen(1))));
 % Inclinación
 x = sin(-theta*pi/180)*d; % Calculo de distancia simulada del segundo elemento
 D = x * (0:N-1)'; % Vector de distancias para cada elemento (de arriba a abajo)
