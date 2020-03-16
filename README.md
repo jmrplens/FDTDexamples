@@ -34,3 +34,11 @@ Pulso:
 Seno:
 
 <img src="http://jmrplens.com/GitHub_FDTD/columnacw.gif" width="50%"></img> <img src="http://jmrplens.com/GitHub_FDTD/colrespcw.jpg" width="43%"></img>
+
+#### FDTD_Columna_coord
+
+Modelo similar al anterior pero en este caso se focaliza el campo acústico en un punto concreto del espacio que se elija (definido por coordenadas), el resultado es más eficiente en el punto de recepción tal como se puede ver en la señal temporal de los receptores.
+<img src="http://jmrplens.com/GitHub_FDTD/columnacwcoor.gif" width="50%"></img> <img src="http://jmrplens.com/GitHub_FDTD/colrespcoor.jpg" width="43%"></img>
+
+Esta focalización se consigue añadiendo un retardo que simula una curvatura de la columa que se agrega al retardo para inclinarla virtualmente:
+<img src="http://jmrplens.com/GitHub_FDTD/colarccoor.jpg" width="43%"></img>
